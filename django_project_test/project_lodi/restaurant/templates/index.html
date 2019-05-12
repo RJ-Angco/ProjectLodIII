@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<link href="https://bootswatch.com/_vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="ISO-8859-1">
+<title>Project Lodi Home Page</title>
+</head>
+<body class="text-center" style="padding-bottom: 50px">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/index"> P r o j e c t  L o d i</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index">Home</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="/addrestaurant">Add Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutus">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h1>-</h1>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card border-primary mb-3 card-signin my-5 ">
+          <div class="card-body">
+          <img class="mb-4" src="{% static "images/logo.png" %}" alt="" width="120" height="120">
+            <h1 class="card-title text-center">Features:</h1>
+              <div class="form-label-group">
+				<h3 class="card-title text-center">Randomize:</h3>
+				<a href ="/randomize_result"><button class="btn btn-lg btn-primary btn-block" type="submit" >Go</button></a>
+				<p></p>
+				<h3 class="card-title text-center">Randomize by Budget:</h3>
+				<a href ="/randomizeviabudget"><button class="btn btn-lg btn-primary btn-block" type="submit" >Go</button></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

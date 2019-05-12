@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<link href="https://bootswatch.com/_vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="ISO-8859-1">
+<title>About us</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/index"> P r o j e c t  L o d i</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index">Home</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="/addrestaurant">Add Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aboutus">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Heading -->
+  <h1 class="my-4">-
+  </h1>
+
+  <!-- Item Row -->
+  <div class="row">
+
+    <div class="col-md-8">
+    <h1>About Us</h1>
+    <p></p>
+      <img class="img-fluid" src="{% static "images/lodiB.png" %}" alt="" width="850" height="600">
+    </div>
+
+    <div class="col-md-4">
+      <h3 class="my-3">Project Description</h3>
+      <p>Project Lodi is designed to help students with one of their daily dilemmas in school: where to eat for breaks? The name was inspired by a fad in the Philippines in the form of a Facebook group named “What’s your ulam pare” where in members upload photos of their meal(s) for the day. </p>
+      <h3 class="my-3">Project Features</h3>
+      <ul>
+        <li>Randomize</li>
+        <li>Randomize by Budget</li>
+        <li>Add Establishment</li>
+        <li>Delete Establishment</li>
+        <li>Update Establishment</li>
+      </ul>
+      <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+    </div>
+
+  </div>
+  <!-- /.row -->
+<p></p>
+<p></p>
+</div>
+
+<center><h1>Meet The Team</h1></center>
+<p></p>
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-3 ">
+      <div class="card border-0 shadow">
+        <img src="{% static "images/bryan.png" %}" class="card-img-top" alt="" width="500" height="350">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Bryan F. Novicio</h5>
+          <div class="card-text text-black-50">Back End Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-3">
+      <div class="card border-0 shadow">
+        <img src="{% static "images/rj.png" %}" class="card-img-top" alt="" width="500" height="350">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">RJ Angco</h5>
+          <div class="card-text text-black-50">Front End Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-3">
+      <div class="card border-0 shadow">
+        <img src="{% static "images/er.png" %}" class="card-img-top" alt="" width="500" height="350">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Ernest Fernandez</h5>
+          <div class="card-text text-black-50">Back End Developer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+</body>
+</html>
